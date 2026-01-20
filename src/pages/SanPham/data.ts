@@ -1,4 +1,3 @@
-// src/pages/products/data.ts
 export interface Product {
     id: number;
     name: string;

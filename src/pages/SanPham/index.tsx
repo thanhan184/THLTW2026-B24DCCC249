@@ -1,4 +1,3 @@
-// src/pages/products/index.tsx
 import React, { useState } from 'react';
 import {
   Table,

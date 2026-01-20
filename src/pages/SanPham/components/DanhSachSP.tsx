@@ -1,4 +1,3 @@
-// src/pages/products/components/ProductForm.tsx
 import React from 'react';
 import { Modal, Form, Input, InputNumber } from 'antd';
 import type { Product } from '../data';
