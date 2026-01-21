@@ -46,7 +46,7 @@
 	{
 		path: '/sanpham',
 		name: 'Quản lý sản phẩm',
-		component: './SanPham',
+		component: './BaiTap1',
 	},
 	  
 
