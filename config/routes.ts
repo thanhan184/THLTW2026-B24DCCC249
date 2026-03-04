@@ -48,6 +48,18 @@
 		name: 'Quản lý sản phẩm',
 		component: './BaiTap1',
 	},
+	// TH01-Bai2
+	{
+		path: '/th01-bai2',
+		name: 'QL học tập (TH01-Bài2)',
+		component: './TH01-Bai2',
+	},
+	// TH01-Bai1
+	{
+		path: '/game-doan-so',
+		name: 'Trò chơi đoán số',
+		component: './TH01-Bai1',
+	  },
 	  
 
 	// DANH MUC HE THONG
