@@ -48,7 +48,18 @@
 		name: 'Quản lý sản phẩm',
 		component: './BaiTap1',
 	},
-	  
+
+	// Kéo búa bao
+	{
+		path: '/keo-bua-bao',
+		name: 'Kéo búa bao',
+		component: './TH02-Bai1',
+	},
+	{
+		path: '/ngan-hang-cau-hoi-de-thi',
+		name: 'Ngân hàng câu hỏi & Đề thi',
+		component: './TH02-Bai2',
+	},
 
 	// DANH MUC HE THONG
 	// {
