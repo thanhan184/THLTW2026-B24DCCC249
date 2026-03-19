@@ -61,6 +61,39 @@
 		component: './TH02-Bai2',
 	},
 
+	// Dịch vụ SPa
+	{
+		path: '/spa',
+		name: 'Dịch vụ SPa',
+		routes: [
+			{
+				name: 'NhanVien',
+				path: 'nhan-vien',
+				component:'./DatLich/NhanVien',
+			},
+			{
+				name: 'DichVu',
+				path: 'dich-vu',
+				component: './DatLich/DichVu',
+			},
+			{
+				name: 'LichHen',
+				path: 'lich-hen',
+				component: './DatLich/LichHen',
+			},
+			{
+				name: 'DanhGia',
+				path: 'danh-gia',
+				component: './DatLich/DanhGia',
+			},
+			{
+				name: 'ThongKe',
+				path: 'thong-ke',
+				component: './DatLich/ThongKe',
+			}
+		]
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
