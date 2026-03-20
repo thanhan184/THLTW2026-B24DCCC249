@@ -48,6 +48,13 @@
 		name: 'Quản lý sản phẩm',
 		component: './BaiTap1',
 	},
+
+	// Quản lý đơn hàng
+	{
+		path: '/donhang',
+		name: 'Quản lý đơn hàng',
+		component: './QuanLyDonHangSanPham',
+	},
 	  
 
 	// DANH MUC HE THONG
