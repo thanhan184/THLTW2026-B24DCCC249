@@ -1,4 +1,4 @@
-﻿import path from "path";
+import path from "path";
 
 export default [
 	{
@@ -90,6 +90,32 @@ export default [
 		],
 	  },
 	  
+	{
+		path: '/club-management',
+		name: 'Quản lý Câu lạc bộ',
+		routes: [
+			{
+				path: '/club-management/club',
+				name: 'Danh sách CLB',
+				component: '@/pages/ClubManagement/Club',
+			},
+			{
+				path: '/club-management/application',
+				name: 'Đơn đăng ký',
+				component: '@/pages/ClubManagement/Application',
+			},
+			{
+				path: '/club-management/member',
+				name: 'Thành viên CLB',
+				component: '@/pages/ClubManagement/Member',
+			},
+			{
+				path: '/club-management/report',
+				name: 'Báo cáo & Thống kê',
+				component: '@/pages/ClubManagement/Report',
+			},
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
