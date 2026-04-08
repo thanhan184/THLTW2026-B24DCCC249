@@ -88,7 +88,7 @@ export default [
 			component: '@/pages/VanBang/Vanbang/VanBang',
 		  },
 		],
-	  },
+	},
 	  
 	{
 		path: '/club-management',
@@ -115,6 +115,13 @@ export default [
 				component: '@/pages/ClubManagement/Report',
 			},
 		],
+	},
+
+	// Quản lý kế hoạch du lịch
+	{
+		path: '/travel-planner',
+		name: 'Lập kế hoạch du lịch',
+		component: './TravelPlanner',
 	},
 
 	// DANH MUC HE THONG
