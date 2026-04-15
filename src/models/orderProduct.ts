@@ -10,7 +10,7 @@ export interface Product {
   quantity: number;
 }
 
-export type OrderStatus = 'Chờ xử lý' | 'Đang giao' | 'Hoàn thành' | 'Đã hủy';
+export type OrderStatus = 'Chờ xác nhận' | 'Đang giao' | 'Hoàn thành' | 'Đã hủy';
 
 export interface OrderItem {
   productId: number;
@@ -59,7 +59,7 @@ const INITIAL_ORDERS: Order[] = [
       },
     ],
     totalAmount: 25000000,
-    status: 'Chờ xử lý',
+    status: 'Chờ xác nhận',
     createdAt: '2024-01-15',
   },
 ];
