@@ -139,6 +139,50 @@ export default [
 	// },
 
 	{
+		path: '/blog',
+		name: 'Blog',
+		icon: 'read',
+		hideInMenu: true,
+		routes: [
+			{
+				path: '/blog/home',
+				name: 'Trang chủ',
+				component: '@/pages/Blog/Home',
+				hideInMenu: true,
+			},
+			{
+				path: '/blog/post/:slug',
+				name: 'Chi tiết',
+				component: '@/pages/Blog/Detail',
+				hideInMenu: true,
+			},
+			{
+				path: '/blog/about',
+				name: 'Giới thiệu',
+				component: '@/pages/Blog/About',
+				hideInMenu: true,
+			},
+		],
+	},
+	{
+		path: '/blog-admin',
+		name: 'Quản lý Blog',
+		icon: 'edit',
+		routes: [
+			{
+				path: '/blog-admin/articles',
+				name: 'Bài viết',
+				component: '@/pages/BlogAdmin/ArticleManage',
+			},
+			{
+				path: '/blog-admin/tags',
+				name: 'Quản lý Thẻ',
+				component: '@/pages/BlogAdmin/TagManage',
+			},
+		],
+	},
+
+	{
 		path: '/notification',
 		routes: [
 			{
