@@ -1,0 +1,47 @@
+.fitness-dashboard {
+  padding: 24px;
+  
+  .metric-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+    
+    &:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .icon-blue { color: #1890ff; }
+    .icon-red { color: #ff4d4f; }
+    .icon-gold { color: #faad14; }
+    .icon-green { color: #52c41a; }
+  }
+
+  .chart-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+    .empty-chart {
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #bfbfbf;
+    }
+  }
+
+  .timeline-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: 100%;
+
+    .timeline-content {
+      margin-bottom: 8px;
+    }
+
+    .workout-note {
+      font-size: 13px;
+      color: #8c8c8c;
+    }
+  }
+}

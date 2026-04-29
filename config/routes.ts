@@ -204,6 +204,40 @@ export default [
 		layout: false,
 		hideInMenu: true,
 	},
+
+	{
+		path: '/fitness-app',
+		name: 'Ứng dụng Thể dục',
+		icon: 'heart',
+		routes: [
+			{
+				path: '/fitness-app/dashboard',
+				name: 'Trang chủ',
+				component: '@/pages/FitnessApp/Dashboard',
+			},
+			{
+				path: '/fitness-app/workouts',
+				name: 'Nhật ký tập luyện',
+				component: '@/pages/FitnessApp/WorkoutDiary',
+			},
+			{
+				path: '/fitness-app/health-metrics',
+				name: 'Chỉ số sức khỏe',
+				component: '@/pages/FitnessApp/HealthMetrics',
+			},
+			{
+				path: '/fitness-app/goals',
+				name: 'Quản lý mục tiêu',
+				component: '@/pages/FitnessApp/GoalManagement',
+			},
+			{
+				path: '/fitness-app/exercises',
+				name: 'Thư viện bài tập',
+				component: '@/pages/FitnessApp/ExerciseLibrary',
+			},
+		],
+	},
+
 	{
 		path: '/',
 	},
