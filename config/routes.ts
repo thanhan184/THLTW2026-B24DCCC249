@@ -139,6 +139,29 @@ export default [
 	// },
 
 	{
+		path: '/task-manager',
+		name: 'Quản lý Công việc',
+		icon: 'project',
+		routes: [
+			{
+				path: '/task-manager/dashboard',
+				name: 'Dashboard',
+				component: '@/pages/TaskManager/Dashboard',
+			},
+			{
+				path: '/task-manager/kanban',
+				name: 'Kanban Board',
+				component: '@/pages/TaskManager/Kanban',
+			},
+			{
+				path: '/task-manager/list',
+				name: 'Danh sách Task',
+				component: '@/pages/TaskManager/List',
+			},
+		],
+	},
+
+	{
 		path: '/blog',
 		name: 'Blog',
 		icon: 'read',
